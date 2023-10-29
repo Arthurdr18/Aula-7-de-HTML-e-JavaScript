@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: 2px solid blue;
+}
+img {
+    width: 50%;
+    height: 300px;
+    margin-top: 50px;
+}
+p {
+    margin-top: 25px;
+    padding: 10px;
+   /* border: 10px solid blue; */
+}
+
+img:hover {
+    cursor: pointer;
+}
+body {
+    background-color: aqua;
+}
